@@ -23,6 +23,11 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+@app.get("/")
+def read_root():
+    return {"status": "Nyayasathi Backend is live!"}
+
+
 @app.post("/query")
 async def handle_query(req: Request):
     data = await req.json()
