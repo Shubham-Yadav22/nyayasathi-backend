@@ -1,0 +1,13 @@
+# Core FastAPI dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# Lightweight vector DB and embedding
+chromadb==0.4.15
+sentence-transformers==2.2.2
+
+# HTTP requests
+requests==2.31.0
+
+# Essential dependencies only - no heavy ML frameworks
+pydantic==2.4.2

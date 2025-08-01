@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pkl
+*.pt
+*.npy
+chroma_store/
+.vscode/
+.cache/
+.idea/
+.env
+model_cache/
